@@ -1,1 +1,1 @@
-from .geojsonpy import GeoJsonApi
+from .geo_search import GeoJsonApi as geo_search
