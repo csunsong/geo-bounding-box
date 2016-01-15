@@ -10,7 +10,7 @@ from GeoSearchPy import GeoSearch
 geo_search = GeoSearch(google_api_key)
 
 #Retrieves full field of location data
-geo_search.location_data(location)
+location_data = geo_search.location_data(location)
 
 viewport_bounds = geo_search.viewport_bounds(location)
 
