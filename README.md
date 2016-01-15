@@ -1,11 +1,15 @@
 # GeoSearchPy
 A Python implementation of Gmaps geocode API, capable or returning viewport and geometric bounds. Simply pass in any city, region, or address as a string to retrieve Gmaps geocode data. 
 Can be used to do viewport or Elasticsearch geo_bounding_box queries. 
+<h3>Installation:</h3>
 
+```unix
+pip install geosearch_py
+```
 <h3>Usage:</h3>
 
 ```python
-from GeoSearchPy import GeoSearch
+from geosearch_py import GeoSearch
 #API key is optional; You will need a key if you plan to do calls over daily quota; 
 geo_search = GeoSearch(google_api_key)
 
