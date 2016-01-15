@@ -4,7 +4,7 @@ import json
 GMAPS_GEOCODE_API_ENDPOINT = 'https://maps.googleapis.com/maps/api/geocode/json?address=%s&key=%s'
 
 
-class GeoJsonApi(object):
+class GeoSearch(object):
 
     def __init__(self, key=''):
         self.key = key
