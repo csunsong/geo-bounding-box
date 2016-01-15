@@ -59,8 +59,8 @@ class GeoJsonApi(object):
         if len(results) > 2:
             options = [results[i]['formatted_address']
                        for i in range(0, len(results))]
-            print(
-                "\n Response too large: Please narrow your location query to one of the following: \n", options)
+            print("\n Response too large: Please narrow your location query to one of the following: \n",
+                  options)
             response = None
         elif len(results) < 1:
             self._validate_request(response)
